@@ -4,70 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- <link rel="stylesheet" href="css/uikit.min.css"/> -->
+    <link rel="stylesheet" href="css/ress-style.css">
+    <link rel="stylesheet" href="style.css"><!-- カスタマイズ用の独自CSS（後述）を読み込む -->
+    
+    <!-- <script src="js/jquery-3.5.1.min.js"></script> -->
+    <!-- <script src="js/uikit.min.js"></script> -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <title>Nikky K Studio</title>
 </head>
 
+<!-- <nav class="uk-navbar" data-uk-sticky=""></nav>
+ヘッダーfixed -->
+
 <body>
     <div id="wrapper">
-            <header>
-                <a class="logo" href="index.html">
-                    <h1>K</h1>
-                </a>
-                <div id="navControl">
-                    <a href="#" class="close">
-                        <div class="menu_btn">
-                            <div class="menu_line">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <nav>
-                    <ul id="globalNav" class="clearfix">
-                        <li><a class="nav__list" href="index.html">Home</a></li>
-                        <li><span class="workshop">Workshop</span></li>
-                        <li><a class="nav__list" href="system.html">System</a></li>
-                        <li><a class="nav__list" href="access.html">Access</a></li>
-                        <li class="menu_sns">
-                            <a href="https://twitter.com/Nikky_K_Studio" target="_blank">
-                                <img src="images/info_twitter.png"></a>
-                            <a href="https://www.instagram.com/nikky_k_studio/" target="_blank">
-                                <img src="images/info_insta.png">
-                            </a>
-                            <!-- <a href="#" target="_blank">
-                                <img src="images/info_line.png">
-                            </a> -->
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-        <div id="top">
+        <!-- <header>
             <h1>
                 Nikky K Studio
             </h1>
+        </header> -->
+        <div class="top">
+            <div class="top-img">
+                <h1>
+                    Nikky K Studio
+                </h1>
+
+            </div>
+            <a href="#">Scroll</a>
+
         </div>
-        <footer>
-            <small>©Nikky K Studio</small>
-        </footer>
+        <div class="container">
+            <div class="box">
+                <h2 class="system">
+                    料金
+                    <span>Systme</span>
+                </h2>
+                <ul>
+                    <li>
+                        <p class="first-li">
+                        初回
+                        <span>First time</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        無料
+                        <span>Free</span>
+                        </p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>
+                        2回目以降
+                        <span>Second time</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        500円
+                        <span>500yen</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2 class="access">
+                    アクセス
+                    <span>Access</span>
+                </h2>
+                <p class="address-text">
+                    東京都北区西が丘1-44-5 2階
+                </p>
+                <p class="address-text">
+                    <span>2F,1-44-5, Nishigaoka, Kita Ku, Tokyo To, 115-0056, Japan</span>
+                </p>
+                <div class="map">
+                <a href="https://www.google.co.jp/maps/place/%E3%83%8B%E3%83%83%E3%82%AD%E3%83%BCK%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA/@35.7702612,139.7107483,19z/data=!4m13!1m7!3m6!1s0x0:0x0!2zMzXCsDQ2JzEyLjgiTiAxMznCsDQyJzM5LjkiRQ!3b1!8m2!3d35.7702226!4d139.7110876!3m4!1s0x601892de1b211fc9:0xb96ba9e30a9c446f!8m2!3d35.7701821!4d139.7110366?hl=ja" class="button">MAP</a>
+                </div>
+            </div>
+
+            <div class="sns-box">
+                <ul>
+                    <li class="instagram">
+                        
+                        <a href="https://www.instagram.com/nikky_k_studio/" target="_blank"><i class="fab fa-instagram"></i>
+                        Instagram
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        
+                        <a href="https://twitter.com/Nikky_K_Studio" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    
 
 
-    <script src="js/slick.min.js"></script>
-    <script src="js/common.js"></script>
-    <script>
-        $(function () {
-            $('.slider').slick();
-        });
-    </script>
+    <!--body内ここから表示されます。-->
+    <!--body内ここまで表示されます。-->
+    <!-- jsComponents読み込みここから -->
+    <!-- jsComponentsここまで -->
+    <!-- <script src="my-js.js"></script>my-js -->
 </body>
 
 </html>
